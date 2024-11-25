@@ -4,4 +4,4 @@ import subprocess
 subprocess.run(['git', 'reset', '--hard', 'origin/main'], capture_output=True)
 
 
-print('Hello, world! )')
+print('Hello, world! )2')
