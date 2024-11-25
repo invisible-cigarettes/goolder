@@ -5,6 +5,6 @@ import subprocess
 subprocess.run(['git', 'fetch'], capture_output=True)
 subprocess.run(['git', 'reset', '--hard', 'origin/main'], capture_output=True)
 
-os.execv(sys.executable, [sys.executable] + sys.argv)
+# os.execv(sys.executable, [sys.executable] + sys.argv)
 
-print('Hello (')
+# print('Hello (')
